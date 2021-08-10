@@ -4,6 +4,28 @@
   </div>
 </template>
 
+<script>
+import test from "@/api/test.js"
+export default {
+  data () {
+    return {
+      msg: ""
+    }
+  },
+  mounted () {
+    this.$api.test.test().then(res => {
+      console.log(res);
+    })
+    console.log();
+    test.test().then(res => {
+      console.log(res);
+    });
+
+  }
+
+}
+</script>
+
 
 <style >
 @import "./assets/css/bootstrap.min.css";

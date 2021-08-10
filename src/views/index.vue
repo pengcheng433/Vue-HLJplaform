@@ -54,8 +54,10 @@
         <div data-v-e7e4ea0e=""
              class="section2__content__main__left">
           <div class="left-top">
-            <a href="news2.html"><img src="../assets/images/newsindex.jpg"
-                   class="left-top-img" /></a>
+            <router-link to="/new/new2">
+              <a><img src="../assets/images/newsindex.jpg"
+                     class="left-top-img" /></a>
+            </router-link>
           </div>
           <div class="left-bottom">
             <div class="left-bottom-date">
@@ -63,9 +65,11 @@
               <p class="left-bottom-date-month">2021-03</p>
             </div>
             <div class="left-bottom-title">
-              <a href="news2.html">
-                <h2>工业互联网新三年计划解读</h2>
-              </a>
+              <router-link to="/new/new2">
+                <a>
+                  <h2>工业互联网新三年计划解读</h2>
+                </a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -79,12 +83,14 @@
               <p class="left-bottom-date-month">2020-12</p>
             </div>
             <div class="left-bottom-title">
-              <a href="news1.html">
-                <h2>
-                  《工业互联网标识管理办法》系列解读 |
-                  高新民：《工业互联网标识管理办法》引领我国工业互联网持续纵深发展
-                </h2>
-              </a>
+              <router-link to="/new/new1">
+                <a href="">
+                  <h2>
+                    《工业互联网标识管理办法》系列解读 |
+                    高新民：《工业互联网标识管理办法》引领我国工业互联网持续纵深发展
+                  </h2>
+                </a>
+              </router-link>
             </div>
           </div>
           <div data-v="3"
@@ -94,11 +100,13 @@
               <p class="left-bottom-date-month">2021-03</p>
             </div>
             <div class="left-bottom-title">
-              <a href="news3.html">
-                <h2>
-                  今年工业和信息化标准工作要点发布 推进标识解析标准制定写入要点
-                </h2>
-              </a>
+              <router-link to="/new/new3">
+                <a href="">
+                  <h2>
+                    今年工业和信息化标准工作要点发布 推进标识解析标准制定写入要点
+                  </h2>
+                </a>
+              </router-link>
             </div>
           </div>
           <!--                <div data-v="4" class="section2__content__main__left&#45;&#45;item">-->
@@ -117,8 +125,10 @@
            class="section5__content">
         <div data-v-0f52fa2f=""
              class="section5__content__title">
-          <a href="customer.html"
-             style="color: #000">经典案例</a>
+          <router-link to="/customer/customer">
+            <a href="customer.html"
+               style="color: #000">经典案例</a>
+          </router-link>
         </div>
         <div data-v-0f52fa2f=""
              class="section5__content__desc">
@@ -128,47 +138,48 @@
              class="section5__content__main">
           <div data-v-0f52fa2f=""
                class="section5__content__main__item">
-            <a href="hld.html"
-               style="width: 100%; height: auto; display: block"><img src="images/hld.jpg"
-                   class="section5__content__main__item--image" />
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block1">
+            <router-link to="/customer/hld">
+              <a style="width: 100%; height: auto; display: block"><img src="../assets/images/hld.jpg"
+                     class="section5__content__main__item--image" />
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--left">
-                  纺织行业
+                     class="section5__content__main__item--block1">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left">
+                    纺织行业
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--right">
+                    供应链管理、售后服务、市场营销数字化
+                  </div>
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--right">
-                  供应链管理、售后服务、市场营销数字化
-                </div>
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block2">
-                华利达集团
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block3">
-                协调纺织行业企业供应链上下游之间的需求资源；指导纺织业企业内部生产，提升供应链整体作业效率；实现降低企业成本，提升生产效率，增强企业的竞争力；突破组织界限，建立跨组织多赢的业务流程结构。
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--line"></div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block4">
-                <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--left">
-                  1000+
+                     class="section5__content__main__item--block2">
+                  华利达集团
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--right">
-                  降本增销、降低打假成本、增加品牌影响力
+                     class="section5__content__main__item--block3">
+                  协调纺织行业企业供应链上下游之间的需求资源；指导纺织业企业内部生产，提升供应链整体作业效率；实现降低企业成本，提升生产效率，增强企业的竞争力；突破组织界限，建立跨组织多赢的业务流程结构。
                 </div>
-              </div>
-            </a>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--line"></div>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--block4">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--left">
+                    1000+
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--right">
+                    降本增销、降低打假成本、增加品牌影响力
+                  </div>
+                </div>
+              </a>
+            </router-link>
           </div>
           <div data-v-0f52fa2f=""
                class="section5__content__main__item">
             <a href="jjhb.html"
-               style="width: 100%; height: auto; display: block"><img src="images/jjhb.jpg"
+               style="width: 100%; height: auto; display: block"><img src="../assets/images/jjhb.jpg"
                    class="section5__content__main__item--image" />
               <div data-v-0f52fa2f=""
                    class="section5__content__main__item--block1">
@@ -208,7 +219,7 @@
           <div data-v-0f52fa2f=""
                class="section5__content__main__item">
             <a href="gjdl.html"
-               style="width: 100%; height: auto; display: block"><img src="images/gjdl.jpg"
+               style="width: 100%; height: auto; display: block"><img src="../assets/images/gjdl.jpg"
                    class="section5__content__main__item--image" />
               <div data-v-0f52fa2f=""
                    class="section5__content__main__item--block1">
@@ -254,29 +265,29 @@
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/fh.png"
+               src="../assets/images/fh.png"
                class="section5__content__logos__logo" />
           <img data-v-0f52fa2f=""
-               src="images/ltjt.png"
+               src="../assets/images/ltjt.png"
                class="section5__content__logos__logo" />
           <img data-v-0f52fa2f=""
-               src="images/ydtx.png"
+               src="../assets/images/ydtx.png"
                class="section5__content__logos__logo" />
           <img data-v-0f52fa2f=""
-               src="images/yzjt.png"
+               src="../assets/images/yzjt.png"
                class="section5__content__logos__logo" />
         </div>
 
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/hyjt.gif"
+               src="../assets/images/hyjt.gif"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/hfzy.png"
+               src="../assets/images/hfzy.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/jxxl.gif"
+               src="../assets/images/jxxl.gif"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/jssp.gif"
+               src="../assets/images/jssp.gif"
                class="section5__content__logos__logo" />
 
           <!--                <img data-v-0f52fa2f=""-->
@@ -287,46 +298,46 @@
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/sjjx_m.png"
+               src="../assets/images/sjjx_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/jjhb_m.png"
+               src="../assets/images/jjhb_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/gjdl_m.png"
+               src="../assets/images/gjdl_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/jyjx_m.png"
+               src="../assets/images/jyjx_m.png"
                class="section5__content__logos__logo" />
         </div>
 
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/rksb_m.png"
+               src="../assets/images/rksb_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/jsjc_m.png"
+               src="../assets/images/jsjc_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/hydj_m.png"
+               src="../assets/images/hydj_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/ybjx_m.png"
+               src="../assets/images/ybjx_m.png"
                class="section5__content__logos__logo" />
         </div>
 
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/kmfm_m.png"
+               src="../assets/images/kmfm_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/yzjx_m.png"
+               src="../assets/images/yzjx_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/hld_m.png"
+               src="../assets/images/hld_m.png"
                class="section5__content__logos__logo" /><img data-v-0f52fa2f=""
-               src="images/lckj_m.png"
+               src="../assets/images/lckj_m.png"
                class="section5__content__logos__logo" />
         </div>
 
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
           <img data-v-0f52fa2f=""
-               src="images/otkj_m.png"
+               src="../assets/images/otkj_m.png"
                class="section5__content__logos__logo" />
         </div>
 
@@ -353,7 +364,7 @@
           <div data-v-5ef67879=""
                class="section8__content__main__left">
             <img data-v-5ef67879=""
-                 src="images/yzjt.png"
+                 src="../assets/images/yzjt.png"
                  class="section8__content__main__left--logo" />
             <div data-v-5ef67879=""
                  class="section8__content__main__left__info">
@@ -372,7 +383,7 @@
             <div data-v-5ef67879=""
                  class="section8__content__main__right__item">
               <img data-v-5ef67879=""
-                   src="images/ydtx.png"
+                   src="../assets/images/ydtx.png"
                    class="section8__content__main__right__item--logo" />
               <div data-v-5ef67879=""
                    class="section8__content__main__right__item--title">
@@ -382,7 +393,7 @@
             <div data-v-5ef67879=""
                  class="section8__content__main__right__item">
               <img data-v-5ef67879=""
-                   src="images/ltjt.png"
+                   src="../assets/images/ltjt.png"
                    class="section8__content__main__right__item--logo" />
               <div data-v-5ef67879=""
                    class="section8__content__main__right__item--title">
@@ -403,6 +414,8 @@
 </template>
 
 <script>
+import $ from 'jquery'
+
 import Swiper from 'swiper'
 export default {
   data () {
@@ -485,18 +498,16 @@ export default {
         .siblings('.' + classItem)
         .css('display', 'none')
     }
+    $('.return_top').click(function () {
+      $('html ,body').animate({ scrollTop: 0 }, 1500)
+    })
 
-    /*  $('#return_top').click(function () {
-                 $('html, body').animate({
-                     scrollTop: $($.attr(this, 'href')).offset().top
-                 }, 2000);
-                 return false;
-             }); */
+
 
   }
 }
 </script>
 
-<style>
+<style >
 @import "../assets/css/index.css";
 </style>

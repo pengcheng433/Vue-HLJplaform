@@ -4,7 +4,7 @@
   <div data-v-5fff8c92=""
        data-v-5ef67879=""
        class="app-footer section8__footer">
-    <a href="#header"><img src="../assets/images/top.png"
+    <a><img src="../assets/images/top.png"
            class="return_top"
            id="return_top" /></a>
     <ul data-v-5fff8c92=""

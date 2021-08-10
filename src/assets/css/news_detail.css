@@ -324,11 +324,11 @@ img {
   transform: translateY(-50%);
 }
 .see-image-swiper-next {
-  background-image: url(./images/arrow-left.svg);
+  background-image: url(../images/arrow-left.svg);
   left: 10px;
 }
 .see-image-swiper-prev {
-  background-image: url(./images/arrow-right.svg);
+  background-image: url(../images/arrow-right.svg);
   right: 10px;
 }
 .see-image-swiper .see-image-swiper__dots {
