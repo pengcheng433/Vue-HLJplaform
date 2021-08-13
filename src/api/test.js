@@ -7,6 +7,11 @@ const test = {
       return res.data
     })
   },
+  base() {
+    return axios.post(`/base/qq`).then((res) => {
+      return res.data
+    })
+  },
 }
 
 export default test

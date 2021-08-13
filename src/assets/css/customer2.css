@@ -1,16 +1,16 @@
 .banner {
   margin-top: 103px;
 }
-.case-list-container{
+.case-list-container {
   min-height: 100px;
 }
-.section5__content__main__item--image{
+.section5__content__main__item--image {
   height: 100px;
 }
-.case__content__main{
+.case__content__main {
   margin-top: 40px;
 }
-.jxkh{
+.jxkh {
   display: flex;
   align-items: center;
   height: 28px;
@@ -20,12 +20,12 @@
   line-height: 28px;
   margin-top: 10px;
 }
-.jxkhimg{
+.jxkhimg {
   height: 26px;
   width: 24px;
   margin-right: 12px;
 }
-.cuslist{
+.cuslist {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -33,7 +33,7 @@
   height: auto;
   margin-top: 40px;
 }
-.nameItem{
+.nameItem {
   width: 33%;
   overflow: hidden;
   white-space: nowrap;
@@ -47,7 +47,7 @@
   transition: all 0s;
 }
 
-.bannertab{
+.bannertab {
   width: 100%;
   background: #ffffff;
   /*padding: 50px 70px 0 70px;*/
@@ -56,7 +56,7 @@
   height: 80px;
   margin-top: 50px;
 }
-.tabs{
+.tabs {
   position: absolute;
   height: 72px;
   width: 1280px;
@@ -71,7 +71,7 @@
   display: flex;
   /*justify-content: space-around;*/
 }
-.title{
+.title {
   display: flex;
   font-size: 18px;
   color: #333;
@@ -79,19 +79,19 @@
   align-items: center;
   cursor: pointer;
 }
-.icon{
+.icon {
   line-height: 24px;
   height: 24px;
   /*width: 24px;*/
   display: inline-block;
   margin-right: 8px;
 }
-.active{
+.active {
   color: #007aff;
 }
-.cust{
+.cust {
   color: inherit;
 }
-.cust:hover{
+.cust:hover {
   color: #007aff;
 }

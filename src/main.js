@@ -9,6 +9,7 @@ window.$ = $
 import api from './api' // 导入api接口
 import 'swiper/dist/css/swiper.min.css'
 import 'swiper/dist/js/swiper.min'
+
 Vue.mixin(mixins)
 Vue.config.productionTip = false
 Vue.prototype.$api = api // 将api挂载到vue的原型上

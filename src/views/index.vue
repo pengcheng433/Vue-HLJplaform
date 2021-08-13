@@ -178,89 +178,92 @@
           </div>
           <div data-v-0f52fa2f=""
                class="section5__content__main__item">
-            <a href="jjhb.html"
-               style="width: 100%; height: auto; display: block"><img src="../assets/images/jjhb.jpg"
-                   class="section5__content__main__item--image" />
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block1">
+            <router-link to="/customer/jjhb">
+              <a style="width: 100%; height: auto; display: block"><img src="../assets/images/jjhb.jpg"
+                     class="section5__content__main__item--image" />
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--left">
-                  机械行业
+                     class="section5__content__main__item--block1">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left">
+                    机械行业
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--right">
+                    标识解析防伪溯源、标识解析售后服务
+                  </div>
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--right">
-                  标识解析防伪溯源、标识解析售后服务
-                </div>
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block2">
-                景津环保股份有限公司
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block3">
-                我认为标识解析是目前最具实际操作，又最简单的工业互联网落地方案
-                ，原来也接触过许多互联网解决方案，但都不具备可操作性
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--line"></div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block4">
-                <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--left">
-                  1000+
+                     class="section5__content__main__item--block2">
+                  景津环保股份有限公司
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--right">
-                  动态鉴定、伪售后服务体系、云平台售后大数据分析
+                     class="section5__content__main__item--block3">
+                  我认为标识解析是目前最具实际操作，又最简单的工业互联网落地方案
+                  ，原来也接触过许多互联网解决方案，但都不具备可操作性
                 </div>
-              </div>
-            </a>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--line"></div>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--block4">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--left">
+                    1000+
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--right">
+                    动态鉴定、伪售后服务体系、云平台售后大数据分析
+                  </div>
+                </div>
+              </a>
+            </router-link>
           </div>
           <div data-v-0f52fa2f=""
                class="section5__content__main__item">
-            <a href="gjdl.html"
-               style="width: 100%; height: auto; display: block"><img src="../assets/images/gjdl.jpg"
-                   class="section5__content__main__item--image" />
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block1">
+            <router-link to="/customer/gjdl">
+              <a style="width: 100%; height: auto; display: block"><img src="../assets/images/gjdl.jpg"
+                     class="section5__content__main__item--image" />
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--left">
-                  线缆行业
+                     class="section5__content__main__item--block1">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left">
+                    线缆行业
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--right">
+                    标识解析一物一码、标识解析防伪溯源
+                  </div>
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block1--right">
-                  标识解析一物一码、标识解析防伪溯源
-                </div>
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block2">
-                桂林国际电线电缆集团有限责任公司
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block3">
-                降低哈药集团项目成本，实现数据共享，全面提升集团事务处理效率。
-              </div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--line"></div>
-              <div data-v-0f52fa2f=""
-                   class="section5__content__main__item--block4">
-                <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--left">
-                  1000+
+                     class="section5__content__main__item--block2">
+                  桂林国际电线电缆集团有限责任公司
                 </div>
                 <div data-v-0f52fa2f=""
-                     class="section5__content__main__item--block4--right">
-                  经销商防窜管理、工作量（产量）统计分析
+                     class="section5__content__main__item--block3">
+                  降低哈药集团项目成本，实现数据共享，全面提升集团事务处理效率。
                 </div>
-              </div>
-            </a>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--line"></div>
+                <div data-v-0f52fa2f=""
+                     class="section5__content__main__item--block4">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--left">
+                    1000+
+                  </div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block4--right">
+                    经销商防窜管理、工作量（产量）统计分析
+                  </div>
+                </div>
+              </a>
+            </router-link>
           </div>
         </div>
 
         <div data-v-0f52fa2f=""
              class="section5__content__title">
-          <a href="customer2.html"
-             style="color: #000">合作客户</a>
+          <router-link to="/customer/customer2">
+            <a style="color: #000">合作客户</a>
+          </router-link>
         </div>
         <div data-v-0f52fa2f=""
              class="section5__content__logos">
@@ -343,8 +346,9 @@
 
         <div data-v-0f52fa2f=""
              class="section5__content__link">
-          <a href="customer.html"
-             class="more">了解更多 &gt;</a>
+          <router-link to="/customer/customer">
+            <a class="more">了解更多 &gt;</a>
+          </router-link>
         </div>
       </div>
     </div>

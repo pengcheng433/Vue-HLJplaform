@@ -40,7 +40,7 @@ module.exports = {
 
 module.exports = {
   devServer: {
-    host: 'localhost',
+    host: '127.0.0.2',
     port: '8083',
     proxy: {
       '/api': {
@@ -54,6 +54,18 @@ module.exports = {
           '^/api': '', // 把/api变为空字符
         },
       },
+      '/base': {
+        // /api 表示拦截以/api开头的请求路径
+        target:
+          'https://www.fastmock.site/mock/ec9f53711b166aa008e588792f77fc17/base', // 跨域的域名
+        changeOrigin: true, // 是否开启跨域
+        secure: false, // 如果是https接口，需要配置这个参数
+        pathRewrite: {
+          // 重写路径
+          '^/base': '', // 把/base变为空字符
+        },
+      },
     },
+    hot: true,
   },
 }

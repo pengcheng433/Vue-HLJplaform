@@ -16,6 +16,9 @@ export default {
     this.$api.test.test().then(res => {
       console.log(res);
     })
+    this.$api.test.base().then(res => {
+      console.log(res);
+    })
     console.log();
     test.test().then(res => {
       console.log(res);
