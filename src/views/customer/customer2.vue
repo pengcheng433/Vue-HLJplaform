@@ -44,12 +44,13 @@
       <div class="tabs">
 
         <div class="title">
+
+          <svg data-v-954bc482=""
+               aria-hidden="true"
+               class="icon svg-icon">
+            <use xlink:href="#iconanliku-xuanzhong"></use>
+          </svg>
           <router-link to="/customer/customer">
-            <svg data-v-954bc482=""
-                 aria-hidden="true"
-                 class="icon svg-icon">
-              <use xlink:href="#iconanliku-xuanzhong"></use>
-            </svg>
             <a class="cust"><span class="font">
                 案例故事
               </span></a>
@@ -57,13 +58,13 @@
         </div>
 
         <div class="title active">
-          <router-link to="/customer/customer2">
-            <svg data-v-954bc482=""
-                 aria-hidden="true"
-                 class="icon svg-icon">
-              <use xlink:href="#iconkehuminglu1"></use>
-            </svg>
 
+          <svg data-v-954bc482=""
+               aria-hidden="true"
+               class="icon svg-icon">
+            <use xlink:href="#iconkehuminglu1"></use>
+          </svg>
+          <router-link to="/customer/customer2">
             <a class="cust"><span class="font">客户名录</span></a>
           </router-link>
         </div>

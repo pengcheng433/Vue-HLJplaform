@@ -406,8 +406,9 @@
             </div>
             <div data-v-5ef67879=""
                  class="section8__content__main__right__button">
-              <a href="joinus.html"
-                 class="joinusan"><span style="display: block">加入我们</span></a>
+              <router-link to="/joinus">
+                <a class="joinusan"><span style="display: block">加入我们</span></a>
+              </router-link>
             </div>
           </div>
         </div>
