@@ -512,6 +512,6 @@ export default {
 }
 </script>
 
-<style >
+<style>
 @import "../assets/css/index.css";
 </style>

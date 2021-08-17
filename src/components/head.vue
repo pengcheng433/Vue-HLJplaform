@@ -16,13 +16,15 @@
                id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link"
-                   href="index.html">首页 <span class="sr-only">(current)</span></a>
+                <router-link to="/index">
+                  <a class="nav-link"
+                     href="index.html">首页 <span class="sr-only">(current)</span></a>
+                </router-link>
               </li>
 
               <li class="nav-item dropdown">
+
                 <a class="nav-link dropdown-toggle"
-                   href="news.html"
                    id="navbarDropdown"
                    role="button"
                    data-toggle="dropdown"
@@ -32,30 +34,34 @@
                 </a>
                 <div class="dropdown-menu"
                      aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item"
-                     href="news.html">标识动态</a>
+                  <router-link to="/new/news">
+                    <a class="dropdown-item">标识动态</a>
+                  </router-link>
                   <a class="dropdown-item"
                      href="#">会议活动</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="solution.html"
-                   tabindex="-1">解决方案</a>
+                <router-link to="/solution">
+                  <a class="nav-link"
+                     tabindex="-1">解决方案</a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="customer.html"
-                   tabindex="-1">经典案例</a>
+                <router-link to="/customer">
+                  <a class="nav-link"
+                     tabindex="-1">经典案例</a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="service.html"
-                   tabindex="-1">产品服务</a>
+                <router-link to="/service">
+                  <a class="nav-link"
+                     tabindex="-1">产品服务</a>
+                </router-link>
+
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
-                   href="know.html"
                    id="navbarDropdown1"
                    role="button"
                    data-toggle="dropdown"
@@ -65,26 +71,35 @@
                 </a>
                 <div class="dropdown-menu"
                      aria-labelledby="navbarDropdown1">
-                  <a class="dropdown-item"
-                     href="know.html">标识科普</a>
-                  <a class="dropdown-item"
-                     href="download.html">标识文件</a>
+                  <router-link to="/know">
+                    <a class="dropdown-item">标识科普</a>
+                  </router-link>
+                  <router-link to="/know/download">
+                    <a class="dropdown-item">标识文件</a>
+                  </router-link>
+
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="person.html"
-                   tabindex="-1">标识达人</a>
+                <router-link to="/person">
+
+                  <a class="nav-link"
+                     tabindex="-1">标识达人</a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="item.html"
-                   tabindex="-1">项目合作</a>
+                <router-link to="/item">
+
+                  <a class="nav-link"
+                     tabindex="-1">项目合作</a>
+                </router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link"
-                   href="joinus.html"
-                   tabindex="-1">平台加盟</a>
+                <router-link to="/joinus">
+                  <a class="nav-link"
+                     tabindex="-1">平台加盟</a>
+                </router-link>
+
               </li>
             </ul>
 

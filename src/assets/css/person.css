@@ -94,7 +94,7 @@
   font-variant: tabular-nums;
   line-height: 1.5;
   list-style: none;
-  font-feature-settings: 'tnum';
+  font-feature-settings: "tnum";
   position: relative;
   padding-left: 2px;
 }
@@ -134,7 +134,7 @@
   font-weight: 700;
 }
 .detail .ant-anchor-link-active > .ant-anchor-link-title:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -209,9 +209,9 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.headercase .content {
+.headercase .content{
   color: #fff;
-  opacity: 0.65;
+  opacity: .65;
   font-size: 14px;
 }
 .page-box1 {
@@ -246,25 +246,25 @@
   width: 40%;
 }
 
-.see-title .title .textimg .leftimg {
+.see-title .title .textimg .leftimg{
   text-align: center;
   width: 100%;
   height: 350px;
   object-fit: scale-down;
 }
-.see-title .title .info {
+.see-title .title .info{
   color: #000;
   font-size: 18px;
   line-height: 24px;
   width: 50%;
 }
-.see-title .title .info .name {
+.see-title .title .info .name{
   color: #000;
   font-size: 24px;
   line-height: 30px;
   font-weight: 800;
 }
-.see-title .title .info .infodetail {
+.see-title .title .info .infodetail{
   color: #000;
   font-size: 18px;
   line-height: 1.8em;
@@ -279,18 +279,18 @@
   font-size: 24px;
   line-height: 24px;
 }
-.see-title .title .text1-link {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #007aff;
-}
+.see-title .title .text1-link{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+  color:#007aff
+ }
 
-.see-title .title .text1-link a:hover {
-  color: #007aff;
+.see-title .title .text1-link a:hover{
+  color:#007aff
 }
 .see-title .sub-titletime {
   line-height: 24px;
@@ -309,6 +309,7 @@
   word-break: break-all;
   text-indent: 35px;
 }
+
 
 .see-image-normal,
 .see-image-normal .see-image-normal__image {
@@ -344,11 +345,11 @@ img {
   transform: translateY(-50%);
 }
 .see-image-swiper-next {
-  background-image: url(./images/arrow-left.svg);
+  background-image: url(../images/arrow-left.svg);
   left: 10px;
 }
 .see-image-swiper-prev {
-  background-image: url(./images/arrow-right.svg);
+  background-image: url(../images/arrow-right.svg);
   right: 10px;
 }
 .see-image-swiper .see-image-swiper__dots {
@@ -389,7 +390,7 @@ img {
 }
 .clearfix:after,
 .clearfix:before {
-  content: ' ';
+  content: " ";
   display: table;
 }
 .see-tp-case .case-item {

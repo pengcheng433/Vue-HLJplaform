@@ -48,8 +48,11 @@
                class="icon svg-icon">
             <use xlink:href="#iconanliku-xuanzhong"></use>
           </svg>
-          <a href="customer.html"
-             class="cust"><span class="font">案例故事</span></a>
+          <router-link to="/customer"
+                       style="color:unset">
+            <a href="customer.html"
+               class="cust"><span class="font">案例故事</span></a>
+          </router-link>
         </div>
 
         <div class="title">
@@ -58,8 +61,11 @@
                class="icon svg-icon">
             <use xlink:href="#iconkehuminglu1"></use>
           </svg>
-          <a href="customer2.html"
-             class="cust"><span class="font">客户名录</span></a>
+          <router-link to="/customer/customer2"
+                       style="color:unset">
+            <a href="customer2.html"
+               class="cust"><span class="font">客户名录</span></a>
+          </router-link>
         </div>
       </div>
     </div>
@@ -457,5 +463,23 @@ export default {
 </script>
 
 
-<style  src="../../assets/css/customer.css"  scoped>
+<style scoped  src="../../assets/css/customer.css">
+</style>
+<style  scoped>
+/deep/ .titleico {
+  display: block;
+  width: 80px;
+  height: 22px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(90deg, #d1201d 0%, #e13f27 100%);
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
 </style>
