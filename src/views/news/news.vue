@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="page">
+    <div class="page"
+         style="overflow-x: unset;">
       <!-- style="background-image: url(images/news.jpg);"> -->
 
       <!---->

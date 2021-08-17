@@ -119,10 +119,13 @@ export default {
 }
 </script>
 
+
 <style scoped>
 /* @import "../../assets/css/news_detail.css"; */
+
 .banner {
   margin: 0px;
 }
 </style>
 <style scoped src="../../assets/css/news_detail.css" />
+</style>

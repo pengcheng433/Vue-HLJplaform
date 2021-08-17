@@ -3,7 +3,8 @@
     <!--中间主要内容-->
 
     <!--banner轮播图-->
-    <div class="page">
+    <div class="page"
+         style="margin-top:0px">
       <div class="banner"
            style="background-image: url(images/service1.jpg);">
       </div>

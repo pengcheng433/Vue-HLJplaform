@@ -1,4 +1,13 @@
 /*首页样式*/
+.page {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  min-width: 1280px;
+  background: #f2f2f2;
+  scroll-behavior: smooth;
+  margin-top: 130px;
+}
 .banner {
   margin-top: 130px;
 }

@@ -4,7 +4,7 @@
 
     <!--banner轮播图-->
     <div class="page"
-         style="position: relative;width: 100%;min-width: 1280px;background: #f2f2f2;margin-top: 105px;height:299px;">
+         style="position: relative;width: 100%;min-width: 1280px;background: #f2f2f2;margin-top: 105px;height:299px;overflow-x:unset">
       <div class="banner"
            :style="{background:'url('+images+') center center repeat',
            zIndex:0,backgroundSize:70+'%',width:100+'%',height:299+'px'}">

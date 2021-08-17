@@ -2,7 +2,7 @@
   <div class="page">
     <!--  style="background-image: url(images/news.jpg);" -->
     <div class="banner"
-         :style="{background:'url('+images+')center center ',} ">>
+         :style="{background:'url('+images+')center center ',} ">
 
     </div>
     <div class="page-box">
