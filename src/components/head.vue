@@ -15,7 +15,8 @@
           <div class="collapse navbar-collapse"
                id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+
+              <li :class="'nav-item'+(router.indexOf('index')==1?' active':'')">
                 <router-link to="/index">
                   <a class="nav-link"
                      href="index.html">首页 <span class="sr-only">(current)</span></a>
@@ -29,7 +30,9 @@
                    role="button"
                    data-toggle="dropdown"
                    aria-haspopup="true"
-                   aria-expanded="false">
+                   aria-expanded="false"
+                   :style="{color:router.indexOf('new')==1?'#007aff':''
+                  }">
                   应用头条
                 </a>
                 <div class="dropdown-menu"
@@ -41,19 +44,19 @@
                      href="#">会议活动</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('solution')==1?' active':'')">
                 <router-link to="/solution">
                   <a class="nav-link"
                      tabindex="-1">解决方案</a>
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('customer')==1?' active':'')">
                 <router-link to="/customer">
                   <a class="nav-link"
                      tabindex="-1">经典案例</a>
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('service')==1?' active':'')">
                 <router-link to="/service">
                   <a class="nav-link"
                      tabindex="-1">产品服务</a>
@@ -66,7 +69,8 @@
                    role="button"
                    data-toggle="dropdown"
                    aria-haspopup="true"
-                   aria-expanded="false">
+                   aria-expanded="false"
+                   :style="{color:router.indexOf('know')==1?'#007aff':''}">
                   知识库
                 </a>
                 <div class="dropdown-menu"
@@ -80,21 +84,21 @@
 
                 </div>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('person')==1?' active':'')">
                 <router-link to="/person">
 
                   <a class="nav-link"
                      tabindex="-1">标识达人</a>
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('item')==1?' active':'')">
                 <router-link to="/item">
 
                   <a class="nav-link"
                      tabindex="-1">项目合作</a>
                 </router-link>
               </li>
-              <li class="nav-item">
+              <li :class="'nav-item'+(router.indexOf('joinus')==1?' active':'')">
                 <router-link to="/joinus">
                   <a class="nav-link"
                      tabindex="-1">平台加盟</a>
@@ -116,7 +120,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 export default {
+  data () {
+    return {
+    }
+  },
+  computed: {
+    router () {
+      return this.$route.path
+    }
+  },
+  created () {
 
+
+  }
 }
 </script>
 
