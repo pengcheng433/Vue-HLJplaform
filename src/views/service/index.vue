@@ -120,7 +120,7 @@ export default {
         "name": "一物一码",
         "aid": ["1"],
         "pid": "1",
-        "href": "service/ywym.html",
+        "href": "ywym",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced1.png'),
       }, {
@@ -128,7 +128,7 @@ export default {
         "name": "防伪溯源",
         "aid": ["2"],
         "pid": "1",
-        "href": "service/fwsy.html",
+        "href": "fwsy",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced2.png'),
       }, {
@@ -136,7 +136,7 @@ export default {
         "name": "全生命周期管理",
         "aid": ["3"],
         "pid": "1",
-        "href": "service/smzq.html",
+        "href": "smzq",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced4.png'),
       }, {
@@ -144,7 +144,7 @@ export default {
         "name": "市场营销数字化",
         "aid": ["4"],
         "pid": "1",
-        "href": "service/szyx.html",
+        "href": "szyx",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced3.png')
       }, {
@@ -152,7 +152,7 @@ export default {
         "name": "售后服务",
         "aid": ["5"],
         "pid": "1",
-        "href": "service/shfw.html",
+        "href": "shfw",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced5.png'),
       }, {
@@ -160,7 +160,7 @@ export default {
         "name": "设备资产管理",
         "aid": ["6"],
         "pid": "1",
-        "href": "service/sbzc.html",
+        "href": "sbzc",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced9.png'),
       }, {
@@ -168,7 +168,7 @@ export default {
         "name": "办公数字化管理",
         "aid": ["7"],
         "pid": "1",
-        "href": "service/bgsz.html",
+        "href": "bgsz",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced7.png'),
       }, {
@@ -176,7 +176,7 @@ export default {
         "name": "供应链管理",
         "aid": ["8"],
         "pid": "1",
-        "href": "service/gylg.html",
+        "href": "gylg",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced8.png'),
       }, {
@@ -184,7 +184,7 @@ export default {
         "name": "客户数字化管理",
         "aid": ["9"],
         "pid": "1",
-        "href": "service/khsz.html",
+        "href": "khsz",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced6.png'),
       }, {
@@ -192,7 +192,7 @@ export default {
         "name": "数字化保修",
         "aid": ["10"],
         "pid": "1",
-        "href": "service/szbx.html",
+        "href": "szbx",
         "hy": "通用行业",
         "img": require('../../assets/images/serviced10.png'),
       }
@@ -242,7 +242,7 @@ export default {
         }
 
         filterArray.forEach(function (item, index) {
-          cutomerhtml += '  <div data-v-0f52fa2f="" class="section5__content__main__item" style="padding: 16px 24px"><a href="' + item.href + '"\n' +
+          cutomerhtml += '  <div data-v-0f52fa2f="" class="section5__content__main__item" style="padding: 16px 24px"><router-link to="/service/' + item.href + '"> <a href="' + item.href + '"\n' +
             '                        style="width: 100%;height: auto;display: flex"><img style="display:inline-block;width:30%;max-width: 100%;border: 0;" src="' + item.img + '"\n' +
             '                            class="section5__content__main__item--image_service">\n' +
             '                        <div data-v-0f52fa2f="" style="flex-direction: column;margin-left: 10px;" class="section5__content__main__item--block1">\n' +
@@ -251,6 +251,7 @@ export default {
             '                            <div data-v-0f52fa2f="" class="section5__content__main__item--block1--left servicedetail" style="margin-top: 10px; color: #007aff; font-size: 16px;"><span>查看详情</span></div>\n' +
             '                        </div>\n' +
             '                    </a>\n' +
+            ' </router-link>\n' +
             '                </div>'
         })
 

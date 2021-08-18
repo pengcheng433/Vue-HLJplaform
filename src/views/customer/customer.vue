@@ -189,7 +189,7 @@ export default {
         "pid": "2",
         "aname": ["一物一码", "售后服务"],
         "info": "使用标识解析售后管理系统后，使我们的工作效率得到很大的提高，同时也降低了售后服务成本。",
-        "href": "sjjx.html",
+        "href": "sjjx",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/sjjx.jpg'),
@@ -201,7 +201,7 @@ export default {
         "pid": "2",
         "aname": ["标识解析防伪溯源"],
         "info": "我认为标识解析是目前最具实际操作，又最简单的工业互联网落地方案 ，原来也接触过许多互联网解决方案，但都不具备可操作性",
-        "href": "jjhb.html",
+        "href": "jjhb",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/jjhb.jpg'),
@@ -213,7 +213,7 @@ export default {
         "pid": "3",
         "aname": ["标识解析一物一码", "标识解析防伪溯源"],
         "info": "",
-        "href": "gjdl.html",
+        "href": "gjdl",
         "company": "企业规模1000+",
         "hy": "线缆行业",
         "img": require('../../assets/images/gjdl.jpg'),
@@ -225,7 +225,7 @@ export default {
         "pid": "2",
         "aname": ["标识解析售后服务"],
         "info": "使用使用标识解析合同档案系统后，系统化工作流程，使我们的工作效率得到很大的提高！",
-        "href": "jyjx.html",
+        "href": "jyjx",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/jyjx.jpg'),
@@ -237,7 +237,7 @@ export default {
         "pid": "4",
         "aname": ["标识解析全生命周期管理", "标识解析售后服务"],
         "info": "使用标识解析售后管理系统后，实时把控外派人员工作，把控售后成本，提高服务质量。",
-        "href": "rksb.html",
+        "href": "rksb",
         "company": "企业规模1000+",
         "hy": "设备自动化",
         "img": require('../../assets/images/rksb.png'),
@@ -249,7 +249,7 @@ export default {
         "pid": "5",
         "aname": ["标识解析一物一码", "标识解析防伪溯源"],
         "info": "二维码售后服务系统本来也是国茂要开发的项目，帮我们做了想做的事情也解决了我们想解决的问题。",
-        "href": "jsjc.html",
+        "href": "jsjc",
         "company": "企业规模1000+",
         "hy": "减速机",
         "img": require('../../assets/images/jsjc.jpg'),
@@ -261,7 +261,7 @@ export default {
         "pid": "6",
         "aname": ["标识解析设备化管理", "供应链管理"],
         "info": "移动互联网的普及，使得扫码获取对应产品操作说明更加的便利，用户无需每次都打电话索取相关产品电子档手册，大大提高了用户对产品的体验度。",
-        "href": "hydj.html",
+        "href": "hydj",
         "company": "企业规模1000+",
         "hy": "电机行业",
         "img": require('../../assets/images/hydj.png'),
@@ -273,7 +273,7 @@ export default {
         "pid": "2",
         "aname": ["标识解析市场营销数字化"],
         "info": "大数据时代，需要获取产品的分布图，更好的为将来的市场做规划。",
-        "href": "ybjx.html",
+        "href": "ybjx",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/ybjx.png'),
@@ -285,7 +285,7 @@ export default {
         "pid": "2",
         "aname": ["标识解析市场营销数字化", "标识解析办公数字化管理"],
         "info": "企业的推广是不容忽视的，一个好的平台会带来更大、更专业的收益，移动互联网的发展，是我们转型的关键。",
-        "href": "kmfm.html",
+        "href": "kmfm",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/kmfm.jpg'),
@@ -297,7 +297,7 @@ export default {
         "pid": "2",
         "aname": ["标识解析市场营销数字化"],
         "info": "追随时代的脚步，让用户知道我们好品质的产品，高质量的服务。",
-        "href": "yzjx.html",
+        "href": "yzjx",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/yzjx.png'),
@@ -309,7 +309,7 @@ export default {
         "pid": "7",
         "aname": ["供应链管理", "售后服务", "市场营销数字化"],
         "info": "追随时代的脚步，让用户知道我们好品质的产品，高质量的服务。",
-        "href": "hld.html",
+        "href": "hld",
         "company": "企业规模1000+",
         "hy": "纺织行业",
         "img": require('../../assets/images/hld.jpg'),
@@ -321,7 +321,7 @@ export default {
         "pid": "2",
         "aname": ["防伪溯源", "一物一码", "办公数字化管理"],
         "info": "使用迈迪物联码，提升了产品形象，解决了令人困扰的产品防伪问题",
-        "href": "wsjx.html",
+        "href": "wsjx",
         "company": "企业规模1000+",
         "hy": "机械行业",
         "img": require('../../assets/images/wsjx.jpg'),
@@ -334,7 +334,7 @@ export default {
         "pid": "6",
         "aname": ["防伪溯源", "一物一码", "办公数字化管理"],
         "info": "一解决模型问题，二解决推广问题，三解决产品形象问题，一举三得。",
-        "href": "syzj.html",
+        "href": "syzj",
         "company": "企业规模1000+",
         "hy": "电机行业",
         "img": require('../../assets/images/syzj.jpg'),
@@ -347,7 +347,7 @@ export default {
         "pid": "4",
         "aname": ["防伪溯源", "一物一码", "售后服务", "设备资产管理", "数字化保修"],
         "info": "一解决模型问题，二解决推广问题，三解决产品形象问题，一举三得。",
-        "href": "lckj.html",
+        "href": "lckj",
         "company": "企业规模1000+",
         "hy": "设备自动化",
         "img": require('../../assets/images/lckj.jpg'),
@@ -360,7 +360,7 @@ export default {
         "pid": "1",
         "aname": ["供应链管理"],
         "info": "一解决模型问题，二解决推广问题，三解决产品形象问题，一举三得。",
-        "href": "otkj.html",
+        "href": "otkj",
         "company": "企业规模1000+",
         "hy": "汽配行业",
         "img": require('../../assets/images/otkj.jpg'),
@@ -412,7 +412,7 @@ export default {
         }
 
         filterArray.forEach(function (item, index) {
-          cutomerhtml += '  <div data-v-0f52fa2f="" class="section5__content__main__item"><a href="' + item.href + '"\n' +
+          cutomerhtml += '  <div data-v-0f52fa2f="" class="section5__content__main__item">   <router-link to="/customer/' + item.href + '"><a href="' + item.href + '"\n' +
             '                        style="width: 100%;height: auto;display: block;position: relative">' +
             '<div class="titleico">' + item.hy + '</div>' +
             '<img src="' + item.img + '"\n' +
@@ -432,6 +432,7 @@ export default {
             '                            </div>\n' +
             '                        </div>\n' +
             '                    </a>\n' +
+            '                    </router-link>\n' +
             '                </div>'
         })
 

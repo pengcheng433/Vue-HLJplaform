@@ -420,7 +420,6 @@
 
 <script>
 import $ from 'jquery'
-
 import Swiper from 'swiper'
 export default {
   data () {

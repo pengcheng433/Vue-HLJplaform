@@ -16,6 +16,29 @@ import customer2 from '@/views/customer/customer2'
 import Hld from '@/views/customer/hld.vue'
 import Jjhb from '@/views/customer/jjhb.vue'
 import Gjdl from '@/views/customer/gjdl.vue'
+import Sjjx from '@/views/customer/sjjx.vue'
+import Jyjx from '@/views/customer/jyjx.vue'
+import Rksb from '@/views/customer/rksb.vue'
+import Jsjc from '@/views/customer/jsjc.vue'
+import hydj from '@/views/customer/hydj.vue'
+import ybjx from '@/views/customer/ybjx.vue'
+import kmfm from '@/views/customer/kmfm.vue'
+import yzjx from '@/views/customer/yzjx.vue'
+import wsjx from '@/views/customer/wsjx.vue'
+import syzj from '@/views/customer/syzj.vue'
+import lckj from '@/views/customer/lckj.vue'
+import otkj from '@/views/customer/otkj.vue'
+import ywym from '@/views/service/ywym.vue'
+import fwsy from '@/views/service/fwsy.vue'
+import smzq from '@/views/service/smzq.vue'
+import szyx from '@/views/service/szyx.vue'
+import shfw from '@/views/service/shfw.vue'
+import sbzc from '@/views/service/sbzc.vue'
+import bgsz from '@/views/service/bgsz.vue'
+import gylg from '@/views/service/gylg.vue'
+import khsz from '@/views/service/khsz.vue'
+import szbx from '@/views/service/szbx.vue'
+
 const routes = [
   {
     path: '/index',
@@ -102,6 +125,54 @@ const routes = [
         path: 'gjdl',
         component: Gjdl,
       },
+      {
+        path: 'sjjx',
+        component: Sjjx,
+      },
+      {
+        path: 'jyjx',
+        component: Jyjx,
+      },
+      {
+        path: 'rksb',
+        component: Rksb,
+      },
+      {
+        path: 'Jsjc',
+        component: Jsjc,
+      },
+      {
+        path: 'hydj',
+        component: hydj,
+      },
+      {
+        path: 'ybjx',
+        component: ybjx,
+      },
+      {
+        path: 'kmfm',
+        component: kmfm,
+      },
+      {
+        path: 'yzjx',
+        component: yzjx,
+      },
+      {
+        path: 'wsjx',
+        component: wsjx,
+      },
+      {
+        path: 'syzj',
+        component: syzj,
+      },
+      {
+        path: 'lckj',
+        component: lckj,
+      },
+      {
+        path: 'otkj',
+        component: otkj,
+      },
     ],
   },
   {
@@ -123,6 +194,46 @@ const routes = [
       {
         path: 'index',
         component: service,
+      },
+      {
+        path: 'ywym',
+        component: ywym,
+      },
+      {
+        path: 'fwsy',
+        component: fwsy,
+      },
+      {
+        path: 'smzq',
+        component: smzq,
+      },
+      {
+        path: 'szyx',
+        component: szyx,
+      },
+      {
+        path: 'shfw',
+        component: shfw,
+      },
+      {
+        path: 'sbzc',
+        component: sbzc,
+      },
+      {
+        path: 'bgsz',
+        component: bgsz,
+      },
+      {
+        path: 'gylg',
+        component: gylg,
+      },
+      {
+        path: 'khsz',
+        component: khsz,
+      },
+      {
+        path: 'szbx',
+        component: szbx,
       },
     ],
   },
