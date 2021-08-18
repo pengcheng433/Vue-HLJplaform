@@ -405,10 +405,10 @@
               </div>
             </div>
             <div data-v-5ef67879=""
+                 @click="gotojoin()"
                  class="section8__content__main__right__button">
-              <router-link to="/joinus">
-                <a class="joinusan"><span style="display: block">加入我们</span></a>
-              </router-link>
+
+              <a class="joinusan"><span style="display: block">加入我们</span></a>
             </div>
           </div>
         </div>
@@ -431,7 +431,11 @@ export default {
       swiper4: require('../assets/images/banner4_new.jpg')
     }
   },
-
+  methods: {
+    gotojoin () {
+      this.$router.push({ path: "/joinus" })
+    }
+  },
   mounted () {
 
     var swiper = new Swiper('.swiper-container', {
