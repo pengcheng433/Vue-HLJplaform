@@ -99,7 +99,8 @@
                  class="see-space"
                  id="1603099242410312"
                  style="height: 20px;"></div>
-            <video src="../../assets/video/物联码-景津.mp4"
+            <video :src="video"
+                   type="video.mp4"
                    controls="controls"
                    preload="metadata"
                    width="100%">
@@ -368,6 +369,7 @@ export default {
   data () {
     return {
       images: require('../../assets/images/case-banner.jpg'),
+      video: require('../../assets/video/物联码-景津.mp4'),
 
     }
   },

@@ -100,7 +100,8 @@
                  class="see-space"
                  id="1603099242410312"
                  style="height: 20px;"></div>
-            <video src="../../assets/video/桂林电缆.mp4"
+            <video :src="video"
+                   type="video.mp4"
                    controls="controls"
                    preload="metadata"
                    width="100%">
@@ -422,7 +423,7 @@ export default {
   data () {
     return {
       images: require('../../assets/images/case-banner.jpg'),
-
+      video: require('../../assets/video/桂林电缆.mp4'),
     }
   },
   methods: {
@@ -441,9 +442,9 @@ export default {
         }
       }
     },
+  },
 
-
-  }, mounted () {
+  mounted () {
     $('a.ant-anchor-link-title').click(function (event) {
       var thisObj = event.target.parentNode
       var tags = $('.ant-anchor-link')
