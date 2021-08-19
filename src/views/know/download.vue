@@ -72,7 +72,7 @@ export default {
   data () {
     return {
       images: require('../../assets/images/tiao_web.png'),
-
+      path: process.env.BASE_URL
     }
   },
   mounted () {
@@ -106,51 +106,51 @@ export default {
         var caseArrayval = [{
           "id": "1",
           "name": "《工业互联网标识解析标准化白皮书.pdf",
-          "img": "download/《工业互联网标识解析标准化白皮书.pdf",
+          "img": "工业互联网标识解析标准化白皮书.pdf",
         }, {
           "id": "2",
           "name": "标识解析产品追溯白皮书.pdf",
-          "img": "download/标识解析产品追溯白皮书.pdf",
+          "img": "标识解析产品追溯白皮书.pdf",
         }, {
           "id": "3",
           "name": "标识解析二级节点建设导则.pdf",
-          "img": "download/标识解析二级节点建设导则.pdf",
+          "img": "标识解析二级节点建设导则.pdf",
         }, {
           "id": "4",
           "name": "垂直行业建设白皮书.pdf",
-          "img": "download/垂直行业建设白皮书.pdf",
+          "img": "垂直行业建设白皮书.pdf",
         }, {
           "id": "5",
           "name": "工业大数据创新竞赛白皮书.pdf",
-          "img": "download/工业大数据创新竞赛白皮书.pdf",
+          "img": "工业大数据创新竞赛白皮书.pdf",
         }, {
           "id": "6",
           "name": "工业大数据分析指南.pdf",
-          "img": "download/工业大数据分析指南.pdf",
+          "img": "工业大数据分析指南.pdf",
         }, {
           "id": "7",
           "name": "工业互联网安全解决方案.pdf",
-          "img": "download/工业互联网安全解决方案.pdf",
+          "img": "工业互联网安全解决方案.pdf",
         }, {
           "id": "8",
           "name": "工业互联网安全事态白皮书.pdf",
-          "img": "download/工业互联网安全事态白皮书.pdf",
+          "img": "工业互联网安全事态白皮书.pdf",
         }, {
           "id": "9",
           "name": "工业互联网平台白皮书.pdf",
-          "img": "download/工业互联网平台白皮书.pdf",
+          "img": "工业互联网平台白皮书.pdf",
         }, {
           "id": "10",
           "name": "工业企业数字资产管理调研报告.pdf",
-          "img": "download/工业企业数字资产管理调研报告.pdf",
+          "img": "工业企业数字资产管理调研报告.pdf",
         }, {
           "id": "11",
           "name": "工业区块链白皮书.pdf",
-          "img": "download/工业区块链白皮书.pdf",
+          "img": "工业区块链白皮书.pdf",
         }, {
           "id": "12",
           "name": "工业数据采集产业报告.pdf",
-          "img": "download/工业数据采集产业报告.pdf",
+          "img": "工业数据采集产业报告.pdf",
         }
         ];
 
@@ -172,7 +172,7 @@ export default {
             '                                    class="section5__content__main__item--image" style="width: 158px;height: 213px;margin: 0 auto 0 13px; ">\n' +
             '                            </a>\n' +
             '<div class="section5-title" style="height: 70px;"><span class="section5-title-content" style="padding-top: 15px;padding-right: 5px; display: block; width: 100%; text-align: center;height: 100%;color: #333333; ">' + caseArray[i]['name'] + '</span></div>\n' +
-            '<div class="section5-title-download" style="height: 70px;line-height: 70px;"><a style="display: block;width: 120px; height: 40px; font-size: 16px; line-height: 40px; color: #fff;border: none;  background: linear-gradient(90deg, #D1201D 0%, #E13F27 100%); border-radius: 4px;    margin: 20px auto;" href="' + caseArray[i]['img'] + '"\n' +
+            '<div class="section5-title-download" style="height: 70px;line-height: 70px;"><a style="display: block;width: 120px; height: 40px; font-size: 16px; line-height: 40px; color: #fff;border: none;  background: linear-gradient(90deg, #D1201D 0%, #E13F27 100%); border-radius: 4px;    margin: 20px auto;" download="' + caseArray[i]['name'] + '" href="/static/' + caseArray[i]['img'] + '"\n' +
             '                             class="downfilebutton "><span class="section5-title-content-download" style="display: block; width: 100%; text-align: center;    height: 100%;    color: #fff;">下载</span></a></div>\n' +
             '                            </div>'
         }

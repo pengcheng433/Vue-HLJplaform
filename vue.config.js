@@ -40,8 +40,6 @@ module.exports = {
 
 module.exports = {
   devServer: {
-    host: '127.0.0.2',
-    port: '8083',
     proxy: {
       '/api': {
         // /api 表示拦截以/api开头的请求路径
