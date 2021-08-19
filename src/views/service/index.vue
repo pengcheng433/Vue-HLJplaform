@@ -24,6 +24,11 @@
           <div data-v-10e9d1ae=""
                class="labels"
                id="labels1">
+            <p :key="item.name"
+               @click="chang(1,index)"
+               :class="[index==select1?'active label_item':'label_item']"
+               v-for="(item,index) in application"
+               :data-aid="index"><span class="labelContent"><span class="font">{{item.name}}</span></span></p>
           </div>
         </div>
         <!---->
@@ -39,7 +44,12 @@
           <div data-v-10e9d1ae=""
                class="labels"
                id="labels2">
-
+            <p v-for="(item,index) in profes"
+               @click="chang(2,index)"
+               :key="item.name"
+               :class="[index==select2?'active label_item':'label_item']"
+               :data-pid="index"><span class="labelContent"><span class="font">{{item.name}}</span>
+              </span></p>
           </div>
           <!---->
         </div>
@@ -52,7 +62,33 @@
 
         <div data-v-0f52fa2f=""
              class="case__content__main">
+          <div data-v-0f52fa2f=""
+               v-for="(item,index) in shwonapp"
+               :index="index"
+               class="section5__content__main__item"
+               style="padding: 16px 24px">
+            <router-link :to="'/service/'+item.href "> <a href=""
+                 style="width: 100%;height: auto;display: flex">
+                <img style="display:inline-block;width:30%;max-width: 100%;border: 0;"
+                     :src="item.img"
+                     class="section5__content__main__item--image_service">
 
+                <div data-v-0f52fa2f=""
+                     style="flex-direction: column;margin-left: 10px;"
+                     class="section5__content__main__item--block1">
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left"><span class="servicetitle"
+                          style="font-size: 18px;"> {{item.name}}
+                    </span></div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left"><span> {{item.hy}}</span></div>
+                  <div data-v-0f52fa2f=""
+                       class="section5__content__main__item--block1--left servicedetail"
+                       style="margin-top: 10px; color: #007aff; font-size: 16px;"><span>查看详情</span></div>
+                </div>
+              </a>
+            </router-link>
+          </div>
         </div>
       </div>
 
@@ -68,54 +104,9 @@
 
 <script>
 export default {
-  mounted () {
-    this.$nextTick(() => {
-      var application = [{ "id": "1", "name": "一物一码" }, { "id": "2", "name": "防伪溯源" }, {
-        "id": "3",
-        "name": "全生命周期管理"
-      }, { "id": "4", "name": "市场营销数字化" }, { "id": "5", "name": "售后服务" }, { "id": "6", "name": "设备化管理" }, {
-        "id": "7",
-        "name": "办公数字化管理"
-      }, {
-        "id": "8",
-        "name": "供应链管理"
-      }, {
-        "id": "9",
-        "name": "客户数字化管理"
-      }, {
-        "id": "10",
-        "name": "设备资产管理"
-      }, {
-        "id": "11",
-        "name": "数字化保修"
-      }]
-      var labels1 = "<p class=\"label_item active\" data-aid=\"0\"><span class=\"labelContent\"><span class=\"font\">全部</span>\n" +
-        "\n" +
-        " </span></p>"
-      for (var i = 0; i < application.length; i++) {
-        labels1 += " <p class=\"label_item\" data-aid=\"" + application[i]['id'] + "\"><span class=\"labelContent\"><span class=\"font\">" + application[i]['name'] + "</span>\n" +
-          "                            <!---->\n" +
-          "                        </span></p>\n"
-      }
-      labels1 += "<div data-v-10e9d1ae=\"\" class=\"clear\"></div>"
-      $("#labels1").append(labels1)
-
-
-      var profes = [{ "id": "1", "name": "通用行业" }, { "id": "2", "name": "专用行业" }]
-      var labels2 = "<p class=\"label_item active\" data-pid=\"0\"><span class=\"labelContent\"><span class=\"font\">全部</span>\n" +
-        "\n" +
-        " </span></p>"
-      for (var i = 0; i < profes.length; i++) {
-        labels2 += " <p class=\"label_item\" data-pid=\"" + profes[i]['id'] + "\"><span class=\"labelContent\"><span class=\"font\">" + profes[i]['name'] + "</span>\n" +
-          "                            <!---->\n" +
-          "                        </span></p>\n"
-      }
-      labels2 += "<div data-v-10e9d1ae=\"\" class=\"clear\"></div>"
-      $("#labels2").append(labels2)
-
-      var aid = 0;
-      var pid = 0;
-      var caseArray = [{
+  data () {
+    return {
+      caseArray: [{
         "id": "1",
         "name": "一物一码",
         "aid": ["1"],
@@ -196,89 +187,72 @@ export default {
         "hy": "通用行业",
         "img": require('../../assets/images/serviced10.png'),
       }
-      ];
-      var filterArray = [];
-      var caseList = []
+      ],
+      application: [{ "id": "0", "name": "全部" }, { "id": "1", "name": "一物一码" }, { "id": "2", "name": "防伪溯源" }, {
+        "id": "3",
+        "name": "全生命周期管理"
+      }, { "id": "4", "name": "市场营销数字化" }, { "id": "5", "name": "售后服务" }, { "id": "6", "name": "设备化管理" }, {
+        "id": "7",
+        "name": "办公数字化管理"
+      }, {
+        "id": "8",
+        "name": "供应链管理"
+      }, {
+        "id": "9",
+        "name": "客户数字化管理"
+      }, {
+        "id": "10",
+        "name": "设备资产管理"
+      }, {
+        "id": "11",
+        "name": "数字化保修"
+      }],
+      profes: [{ "id": "0", "name": "全部" }, { "id": "1", "name": "通用行业" }, { "id": "2", "name": "专用行业" }],
+      select1: "0",
+      select2: "0"
+    }
+  },
+  methods: {
+    getData () {
+      let filterArray = []
+      if (this.select1 == 0 || this.select2 == 0) {
+        //如果有个选择全部，则数组内有全部的值，判断另一个刷选条件，如果不存在则去除
+        filterArray = this.caseArray.concat();
 
-      $('#labels1').on('click', '.label_item .labelContent', function (event) {
-        tabSwitch('active');
-        aid = event.target.parentNode.parentNode.dataset.aid;
-        pid = $('#labels2 .active').attr("data-pid")
-        filter();
-      });
-      $('#labels2').on('click', '.label_item .labelContent', function (event) {
-        tabSwitch('active');
-        pid = event.target.parentNode.parentNode.dataset.pid;
-        aid = $('#labels1 .active').attr("data-aid")
-        filter();
-
-      });
-      filter()
-
-      function filter () {
-        var cutomerhtml = ""
-        $(".case__content__main").html("")
-        caseList = [];
-        filterArray = [];
-        if (aid == "0" || pid == "0") {
-          //如果有个选择全部，则数组内有全部的值，判断另一个刷选条件，如果不存在则去除
-          filterArray = caseArray.concat();
-          filterArray = filterArray.filter((item) => {
-            if (pid == 0 && aid != 0) {
-              return item.aid.indexOf(aid) > -1
-            } else if (pid != 0 && aid == 0) {
-              return item.pid == pid
-            } else {
-              return filterArray
-            }
-          });
-        } else {
-          caseArray.forEach(function (item, index) {
-            if (item.pid == pid && item.aid.indexOf(aid) > -1) {
-              filterArray.push(item)
-            }
-
-          })
-        }
-
-        filterArray.forEach(function (item, index) {
-          cutomerhtml += '  <div data-v-0f52fa2f="" class="section5__content__main__item" style="padding: 16px 24px"><router-link to="/service/' + item.href + '"> <a href="' + item.href + '"\n' +
-            '                        style="width: 100%;height: auto;display: flex"><img style="display:inline-block;width:30%;max-width: 100%;border: 0;" src="' + item.img + '"\n' +
-            '                            class="section5__content__main__item--image_service">\n' +
-            '                        <div data-v-0f52fa2f="" style="flex-direction: column;margin-left: 10px;" class="section5__content__main__item--block1">\n' +
-            '                            <div data-v-0f52fa2f="" class="section5__content__main__item--block1--left"><span class="servicetitle" style="font-size: 18px;">' + item.name + '</span></div>\n' +
-            '                            <div data-v-0f52fa2f="" class="section5__content__main__item--block1--left"><span>' + item.hy + '</span></div>\n' +
-            '                            <div data-v-0f52fa2f="" class="section5__content__main__item--block1--left servicedetail" style="margin-top: 10px; color: #007aff; font-size: 16px;"><span>查看详情</span></div>\n' +
-            '                        </div>\n' +
-            '                    </a>\n' +
-            ' </router-link>\n' +
-            '                </div>'
-        })
-
-        $(".case__content__main").append(cutomerhtml)
-      }
-
-      //数组去重
-      function unique (arr) {
-        var newA = [];
-        var idArray = [];
-        arr.forEach(key => {
-          if (idArray.indexOf(key.id) < 0) { //遍历newA是否存在key，如果存在key会大于0就跳过push的那一步
-            newA.push(key);
-            idArray.push(key.id)
+        filterArray = filterArray.filter((item) => {
+          if (this.select2.toString() == "0" && this.select1.toString() != "0") {
+            return item.aid.indexOf(this.select1.toString()) > -1
+          } else if (this.select2 != "0" && this.select1 == "0") {
+            return item.pid == this.select2.toString()
+          } else {
+            return filterArray
           }
         });
-        return newA;
+        return filterArray
+      } else {
+        let _this = this
+        this.caseArray.forEach(function (item, index) {
+          if (item.pid == _this.select2.toString() && item.aid.indexOf(_this.select1.toString()) > -1) {
+            filterArray.push(item)
+          }
+        })
+        return filterArray
       }
+    },
+    chang (num, index) {
+      if (num == 1) {
+        this.select1 = index
+      } else {
+        this.select2 = index
+      }
+    }
+  },
+  computed: {
+    shwonapp () {
+      return this.getData()
+    }
+  },
 
-      function tabSwitch (selectActive) {
-        var thisObj = event.target.parentNode.parentNode
-        // 绑定事件到父节点
-        $(thisObj).addClass(selectActive);
-        $(thisObj).siblings().removeClass(selectActive);
-      }
-    })
-  }
 }
 </script>
 <style  scoped>
