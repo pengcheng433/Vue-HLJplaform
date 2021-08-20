@@ -89,14 +89,15 @@ instance.interceptors.request.use(
 // 响应拦截器
 instance.interceptors.response.use(
   // 请求成功
-  (res) => (res.status === 200 ? Promise.resolve(res) : Promise.reject(res)),
+  (res) =>
+    res.status === 200 ? Promise.resolve(res.data) : Promise.reject(res.data),
   // 请求失败
   (error) => {
     const { response } = error
     if (response) {
       // 请求已发出，但是不在2xx的范围
       errorHandle(response.status, response.data.message)
-      return Promise.reject(response)
+      return Promise.reject(response.data)
     } else {
       // 处理断网的情况
       // eg:请求超时或断网时，更新state的network状态

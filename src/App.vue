@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import test from "@/api/test.js"
+// import { test, base } from "@/api/test.js"
 export default {
   data () {
     return {
@@ -13,6 +13,12 @@ export default {
     }
   },
   mounted () {
+    // test({}).then(res => {
+    //   console.log(res);
+    // })
+    // base({}).then(res => {
+    //   console.log(res);
+    // })
     // this.$api.test.test().then(res => {
     //   console.log(res);
     // })
