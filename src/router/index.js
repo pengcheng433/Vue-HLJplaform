@@ -4,7 +4,7 @@ import routes from './routes'
 Vue.use(Router)
 // 路由配置
 const router = new Router({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes,
   scrollBehavior(to, from, savedPosition) {
